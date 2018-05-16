@@ -6,7 +6,7 @@ x = <x1, x2 .. xN> in Euclidean space
 ->
 u = i(x) = <x1, x2 .. xN> in Hyperbolic space
     where
-        -1 < x[i] < 1
+        Sum_i x[i]^2 < 1
 ```
 
 ## the distance in Hyperbolic space
