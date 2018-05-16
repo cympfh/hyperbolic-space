@@ -4,9 +4,14 @@
 injection i:
 x = <x1, x2 .. xN> in Euclidean space
 ->
-u = i(x) = <x1, x2 .. xN> in Hyperbolic space
+u = i(x) = <x1/k, x2/k .. xN/k> in Hyperbolic space
     where
-        Sum_i x[i]^2 < 1
+        norm = Sum_i x[i]^2
+        0 < epsilon << 1
+        k = if norm < 1 then
+            1
+        else
+            norm + epsilon
 ```
 
 ## the distance in Hyperbolic space
